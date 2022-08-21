@@ -1,1 +1,47 @@
+/*
+NAME: GAURAV Kumar
+BITS ID: 2019WA86115
+COURSE NAME: WEB TECHNOLOGIES
+COURSE ID: CSIWZG526
+Faculty: PRASHANT AHIRE
+Location: Pune, Section - C
+*/
 
+/* Write CSS Here */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.full {
+      width: 50%;
+      max-width: 1000px;
+      min-height: 100px;
+      background-color: rgb(240, 240, 240);
+      margin: 0px;
+      display: grid;
+      grid-template-columns: 2fr 4fr;
+}
+.left {
+      position: initial;
+      background-color: rgb(180, 180, 180);
+      padding: 20px;
+
+}
+.right {
+      position: initial;
+      padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+      margin-bottom: 30px;
+}
+.h2 {
+      background-color: rgb(4, 96, 150);
+}
